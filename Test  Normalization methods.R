@@ -1,8 +1,8 @@
-#----------------------------------#
+#----------------------------------------------------------------------------------------------#
 #Impact of TMM and Median normalization method on RNA‑seq differential gene expression analysis 
 # Author: "Yasmine Hezema"
 # Date: "12-12-2024"
-#----------------------------------#
+#---------------------------------=------------------------------------------------------------#
 
 # Load Required Libraries -----
 library(limma) 
@@ -490,4 +490,5 @@ cat("Common DE Genes:", length(common_genes), "\n") # 5926
 cat("Unique to TMM:", length(unique_tmm_genes), "\n") # 1785
 cat("Unique to Median:", length(unique_median_genes), "\n") # 1496 
 cat("Percentage overlap of DE genes:", round(overlap_percentage, 2), "%\n") # 64.36 %
+
 
